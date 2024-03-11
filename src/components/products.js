@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 const Products = () => {
   const [products, setProducts] = useState([
     { id: 1, name: 'Product A', category: 'Electronics', price: 100, stock: 50 },
-    // Add more mock data as needed
   ]);
 
   const handleDelete = (productId) => {

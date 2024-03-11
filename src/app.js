@@ -1,9 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import Dashboard from './components/Dashboard';
-import Products from './components/Products';
-import Orders from './components/Orders';
-import Calendar from './components/Calendar';
+import { BrowserRouter as Router, Route, Switch, Link, Redirect } from 'react-router-dom';
+import Dashboard from './components/dashboard';
+import Products from './components/products';
+import Orders from './components/orders';
+import Calendar from './components/calendar';
 
 const App = () => {
   return (
@@ -38,9 +38,11 @@ const App = () => {
           <Route path="/calendar">
             <Calendar />
           </Route>
-          <Route path="/">
+          <Route path="/dashboard">
             <Dashboard />
           </Route>
+          {/* Redirect any unknown paths to the Dashboard */}
+          <Redirect from="/" to="/dashboard" />
         </Switch>
       </div>
     </Router>

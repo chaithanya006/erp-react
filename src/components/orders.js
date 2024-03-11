@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 const Orders = () => {
   const [orders, setOrders] = useState([
     { id: 1, customerName: 'John Doe', orderDate: '2024-03-11', status: 'Processing' },
-    // Add more mock data as needed
   ]);
 
   const handleDelete = (orderId) => {
