@@ -1,0 +1,203 @@
+
+.products-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .products-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .product-item {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+  }
+  
+  .product-name {
+    color: #333;
+  }
+  
+  .add-button,
+  .edit-button,
+  .delete-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #3498db; 
+    color: #fff; 
+    border: none;
+    border-radius: 3px;
+    margin-top: 16px;
+  }
+  
+  .edit-button {
+    background-color: #2ecc71; 
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+  }
+
+
+.dashboard-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-title {
+    color: #333;
+  }
+  
+  .dashboard-metrics {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .metric-card {
+    flex: 1;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-links {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .link-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .link-button:hover {
+    background-color: #2980b9;
+  }
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  nav {
+    background-color: #333; 
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ffd700; 
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .switch-container {
+    margin-top: 20px;
+  }
+
+
+.orders-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .orders-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-item {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+  }
+  
+  .customer-name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .order-details {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .delete-button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+
+.calendar-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .calendar {
+    margin-bottom: 20px;
+  }
+  
+  .orders-for-date {
+    margin-top: 20px;
+  }
+        

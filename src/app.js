@@ -4,11 +4,12 @@ import Dashboard from './components/dashboard';
 import Products from './components/products';
 import Orders from './components/orders';
 import Calendar from './components/calendar';
+import '../src/index.css';
 
 const App = () => {
   return (
     <Router>
-      <div>
+      <div className="container">
         <nav>
           <ul>
             <li>
@@ -28,22 +29,23 @@ const App = () => {
 
         <hr />
 
-        <Switch>
-          <Route path="/products">
-            <Products />
-          </Route>
-          <Route path="/orders">
-            <Orders />
-          </Route>
-          <Route path="/calendar">
-            <Calendar />
-          </Route>
-          <Route path="/dashboard">
-            <Dashboard />
-          </Route>
-          {/* Redirect any unknown paths to the Dashboard */}
-          <Redirect from="/" to="/dashboard" />
-        </Switch>
+        <div className="switch-container">
+          <Switch>
+            <Route path="/products">
+              <Products />
+            </Route>
+            <Route path="/orders">
+              <Orders />
+            </Route>
+            <Route path="/calendar">
+              <Calendar />
+            </Route>
+            <Route path="/dashboard">
+              <Dashboard />
+            </Route>
+            <Redirect from="/" to="/dashboard" />
+          </Switch>
+        </div>
       </div>
     </Router>
   );
