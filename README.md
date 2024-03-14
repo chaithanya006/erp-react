@@ -6,11 +6,9 @@ Description
 This ERP (Enterprise Resource Planning) system is built using React, providing a robust platform for managing various business processes efficiently. It offers features like user authentication, customizable dashboard, modular design, and responsive interface.
 
 Features
-User Authentication: Secure login and authentication system.
 Customizable Dashboard: Overview of key metrics and insights.
-Modular Design: Separate components for different functional areas such as finance, HR, inventory, etc.
+Modular Design: Separate components for different functional areas such as Orders, Dashboard, products, etc.
 Responsive Interface: Compatible and usable across different devices.
-Data Visualization: Visual representation data through charts and graphs for better analysis.
 
 Installation
 To get started with the ERP system locally, follow these steps:
@@ -38,10 +36,6 @@ Contributions are welcome! If you want to contribute to this project, please fol
 5. Push to the branch (git push origin feature/your-feature-name).
 6. Create a new pull request.
 
-Acknowledgements
-• This project was inspired by the need for a modern and efficient ERP system.
-• Special thanks to the developers and contributors of the libraries and frameworks used in this     project.
-Feel free to customize and expand upon this README to suit the specific requirements and  features of your ERP system.
 
 
 
